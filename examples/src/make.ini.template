@@ -1,0 +1,12 @@
+[Engine.Engine]
+GameEngine=Engine.GameEngine
+EditorEngine=Editor.EditorEngine
+
+[Core.System]
+Paths=<PACKAGES_PATH>/*.u
+
+[Editor.EditorEngine]
+EditPackages=Core
+EditPackages=Engine
+EditPackages=ExamplePackage1
+EditPackages=ExamplePackage2

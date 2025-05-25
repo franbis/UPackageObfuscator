@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <EngineSDKDir>ENGINE_SDK_DIR</EngineSDKDir>
+    <EngineDLLsDir>ENGINE_DLLS_DIR</EngineDLLsDir>
+    <EnginePkgsDir>ENGINE_PACKAGES_DIR</EnginePkgsDir>
+    <EngineLocalsDir>ENGINE_LOCALIZATION_FILES_DIR</EngineLocalsDir>
+  </PropertyGroup>
+</Project>
