@@ -23,8 +23,6 @@ In case you wish to test the obfuscated packages in-game, here are the steps:
 1. Place the obfuscated packages into the `System` directory of the game
 1. Remove the *`-obfuscated`* suffix from the packages names
 3. Start the game and send one or both of these commands:
-<br>
 `summon ExamplePackage1.ExampleClass1`
-<br>
 `summon ExamplePackage2.ExampleClass2`
 4. Send the command `showlog` to check that everything worked correctly

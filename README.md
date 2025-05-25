@@ -20,15 +20,15 @@ There's no need to type any bogus name as they get automatically generated eithe
 
 Obfuscated package when disassembled using *ScriptRays* (in *UnrealEd*)
 <br>
-<img src="Examples/img/scriptrays_preview_2_512.avif" width="256" alt="ScriptRays preview 2" />
+<img src="examples/img/scriptrays_preview_2_512.avif" width="256" alt="ScriptRays preview 2" />
 
 Obfuscated package when disassembled using *UE Explorer*
 <br>
-<img src="Examples/img/ue_explorer_preview_1_512.avif" width="256" alt="UE Explorer preview 1" />
+<img src="examples/img/ue_explorer_preview_1_512.avif" width="256" alt="UE Explorer preview 1" />
 
 Obfuscated package when disassembled using *UTPT*
 <br>
-<img src="Examples/img/utpt_preview_1_512.avif" width="256" alt="UTPT preview 1" />
+<img src="examples/img/utpt_preview_1_512.avif" width="256" alt="UTPT preview 1" />
 
 
 ## Can bogus names be deobfuscated?
@@ -70,9 +70,7 @@ Here are the steps to obfuscate a package using a name list:
 1. Place the package to be obfuscated in the app directory
 1. Ensure all the package dependencies are in the same directory
 1. On a command prompt, send this command to extract all the names from the package:
-<br>
 `UPackageObfuscator INPUT_PACKAGE_NAME exportnames=names.ini`
 1. Open `names.ini` and remove any name you don't wish to obfuscate
 1. On a command prompt, send this command:
-<br>
 `UPackageObfuscator INPUT_PACKAGE_NAME names=names.ini out=OUTPUT_PACKAGE_NAME`
