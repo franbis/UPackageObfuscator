@@ -60,7 +60,7 @@ By default, the script text gets nullified (not just erased), this prevents any 
 ## Usage Instructions
 
 ### Windows
-If you wish to run the examples, head to [Running the Examples](/Examples/examples.md).
+If you wish to run the examples, head to [Running the Examples](/examples/examples.md).
 
 The app follows the Unreal Engine 1 standards for standalone apps, therefore it needs to be ran just like you would run UCC for example.
 <br>
